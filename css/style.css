@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url('./font/PixelCyr-Normal.eot');
+    src: url('./font/PixelCyr-Normal.eot?#iefix') format('embedded-opentype'),
+        url('./font/PixelCyr-Normal.ttf') format('truetype'),
+        url('./font/PixelCyr-Normal.svg#PixelCyr-Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  height: 100%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+canvas {
+  cursor: none;
+}
+
+.score {
+  font-family: 'Press Start 2P';
+  font-size: 16px;
+  color: #ffffff;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+}
